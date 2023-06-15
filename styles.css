@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#b66cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    width:150px;
+    height:50px;    
+    box-sizing: border-box;
+    border:none;
+    background-color: #710193;
+    margin:5px;
+}
+#container{
+    display:flex;
+    /* border:1px solid red; */
+    justify-content: space-evenly;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
